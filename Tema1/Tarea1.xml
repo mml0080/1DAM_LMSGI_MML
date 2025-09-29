@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="UTF-8"?>  
+<tienda>
+    <clientes>
+        <cliente>
+            <idcliente>1</idcliente>
+            <nombre>Pepe</nombre>
+            <apellidos>Garcia Molina</apellidos>
+            <telefono>612345678</telefono>
+        </cliente>
+        <cliente>
+            <idcliente>2</idcliente>
+            <nombre>Paco</nombre>
+            <apellidos>Moreno López</apellidos>
+            <telefono>789012345</telefono>
+        </cliente>
+        <cliente>
+            <idcliente>3</idcliente>
+            <nombre>Paqui</nombre>
+            <apellidos>Garcia López</apellidos>
+            <telefono>656789012</telefono>
+        </cliente>
+        <cliente>
+            <idcliente>4</idcliente>
+            <nombre>Fran</nombre>
+            <apellidos>López Garcia</apellidos>
+            <telefono>734781234</telefono>
+        </cliente>
+        <cliente>
+            <idcliente>5</idcliente>
+            <nombre>Miguel</nombre>
+            <apellidos>Moreno Garcia</apellidos>
+            <telefono>678121267</telefono>
+        </cliente>
+    </clientes>
+    <productos>
+        <producto>
+            <idproducto>1</idproducto>
+            <nombreProducto>Portatil HP</nombreProducto>
+            <categoria>Portatiles</categoria>
+            <precio>650 €</precio>
+        </producto>
+        <producto>
+            <idproducto>2</idproducto>
+            <nombreProducto>SSD 1TB</nombreProducto>
+            <categoria>Discos Duros</categoria>
+            <precio>85 €</precio>
+        </producto>
+        <producto>
+            <idproducto>3</idproducto>
+            <nombreProducto>Raton Razer</nombreProducto>
+            <categoria>Perifericos</categoria>
+            <precio>50 €</precio>
+        </producto>
+        <producto>
+            <idproducto>4</idproducto>
+            <nombreProducto>Monitor Asus</nombreProducto>
+            <categoria>Monitores</categoria>
+            <precio>140 €</precio>
+        </producto>
+        <producto>
+            <idproducto>5</idproducto>
+            <nombreProducto>Teclado</nombreProducto>
+            <categoria>Perifericos</categoria>
+            <precio>80 €</precio>
+        </producto>
+    </productos>
+    <pedidos>
+        <pedido>
+            <idpedido>1</idpedido>
+            <fechaDeCompra>10/09/2025</fechaDeCompra>
+            <bultos>3</bultos>
+            <precio>300 €</precio>
+        </pedido>
+        <pedido>
+            <idpedido>2</idpedido>
+            <fechaDeCompra>11/09/2025</fechaDeCompra>
+            <bultos>2</bultos>
+            <precio>120 €</precio>
+        </pedido>
+        <pedido>
+            <idpedido>3</idpedido>
+            <fechaDeCompra>12/09/2025</fechaDeCompra>
+            <bultos>7</bultos>
+            <precio>1590 €</precio>
+        </pedido>
+        <pedido>
+            <idpedido>4</idpedido>
+            <fechaDeCompra>13/09/2025</fechaDeCompra>
+            <bultos>1</bultos>
+            <precio>80 €</precio>
+        </pedido>
+        <pedido>
+            <idpedido>5</idpedido>
+            <fechaDeCompra>14/09/2025</fechaDeCompra>
+            <bultos>2</bultos>
+            <precio>650 €</precio>
+        </pedido>
+    </pedidos>
+    <proveedores>
+        <proveedor>
+            <idProveedor>1</idProveedor>
+            <nombreProveedor>HP</nombreProveedor>
+            <telf.proveedor>612345678</telf.proveedor>
+        </proveedor>
+                <proveedor>
+            <idProveedor>2</idProveedor>
+            <nombreProveedor>HP</nombreProveedor>
+            <telf.proveedor>612345678</telf.proveedor>
+        </proveedor>
+                <proveedor>
+            <idProveedor>3</idProveedor>
+            <nombreProveedor>HP</nombreProveedor>
+            <telf.proveedor>612345678</telf.proveedor>
+        </proveedor>
+                <proveedor>
+            <idProveedor>4</idProveedor>
+            <nombreProveedor>HP</nombreProveedor>
+            <telf.proveedor>612345678</telf.proveedor>
+        </proveedor>
+                <proveedor>
+            <idProveedor>5</idProveedor>
+            <nombreProveedor>HP</nombreProveedor>
+            <telf.proveedor>612345678</telf.proveedor>
+        </proveedor>
+    </proveedores>
+</tienda> 
