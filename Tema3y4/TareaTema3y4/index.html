@@ -1,25 +1,42 @@
 <!DOCTYPE html>
 <html lang="en">
+<!-- En el head añado el titulo de la página -->
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Tarea tema 3 y 4 de lenguaje de marcas</title>
 </head>
+<!-- Abro la etiqueta body -->
 <body>
+    <!-- Añado el h1 -->
     <h1>Mi Perfil Profesional</h1>
 
     <hr>
 
+    <!-- Añado el h2 y dentro de él añado mis datos personales haciendo uso de un <pre> -->
     <h2>Datos personales</h2>
+    <p>Martín es bueno en <span>Programación</span></p>
     <pre>Mis datos:
     
         Nombre: Martín Moreno López       DNI: 26958432V      Fecha de Nacimiento: 18/12/2007
     </pre>
+
+    <hr>
+
+    <!-- Utilizo el <a href> para añadir palabras que te dirijan hacia un sitio especifico de la página -->
+    <a href="#Formacion">Formacion</a>
+    <a href="#Habilidades">Habilidades</a>
+    <a href="#Intereses">Intereses</a>
+
+    <hr>
+
+    <!-- Con esta linea añado una fotografía y le añado un titulo, un borde y el tamaño deseado -->
     <img src="./img/imagenDavante.jpg" alt="Imaen Davante" title="imagen" width="150" height="150" style="border: solid black 2.5px;">
 
     <hr>
 
-    <h2>Formacion</h2>
+    <!-- Dentro de otro h2 añado la información de mi formación haciendo uso de listas ordenadas -->
+    <h2 id="Formacion">Formacion</h2>
     <ol>
         <li><i>ESO</i></li>
         <li><i>Formación profesional de Grado medio en Sistemas Microinformaticos y Redes</i></li>
@@ -27,8 +44,9 @@
 
     <hr>
 
+    <!-- Dentro de el h3 añado la información de mis habilidades e intereses haciendo uso de listas desordenadas -->
     <h3>Habilidades e intereses</h3>
-    <p><strong>Habilidades:</strong></p>
+    <p id="Habilidades"><strong>Habilidades:</strong></p>
     <div>
     <ul>
         <li>Programación</li>
@@ -36,7 +54,7 @@
         <li>Gestión de Sistemas de Bases de Datos</li>
     </ul>
     </div>
-    <p><b>Intereses</b></p>
+    <p id="Intereses"><b>Intereses</b></p>
     <div>
     <ul>
         <li><mark>Seguir aprediendo<mark></mark></li>
@@ -47,7 +65,9 @@
 
     <hr>
 
+    <!-- Aquí añado un mapa de google maps con la ubicación del centro de MEDAC -->
     <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3152.6559334522185!2d-3.78830622430596!3d37.79810237197942!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd6dd7dec3dd20ad%3A0x4fad82fdbe189c8!2sDavante%20MEDAC%20Aventura%20%F0%9F%A5%87%20Centro%20FP%20Ja%C3%A9n!5e0!3m2!1ses!2ses!4v1759741227082!5m2!1ses!2ses" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    <!-- Pongo un <blockquote> con un texto de frases motivadoras dichas por grandes figuras influyentes -->
     <blockquote>
         <p style="color: gold;text-align: center;">Frases motivadoras</p>
         <p>"La única manera de hacer un gran trabajo es amar lo que haces" (Steve Jobs), "El éxito parece estar relacionado con la acción. Las personas con éxito siguen avanzando" (Robert Kiyosaki), "Donde otros dudan, tú actúas" y "Trabaja en silencio, brilla con tus resultados"</p>
