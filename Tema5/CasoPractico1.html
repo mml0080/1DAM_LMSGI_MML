@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejemplo col span</title>
+    <style>
+        table, th, td
+        {
+            border: 1px solid black;
+            text-align: center;
+        }
+        </style>
+</head>
+<body>
+    <p>ACTIVIDADES FORMATIVAS</p>
+    <table>
+        <tr>
+            <th>Curso</th>
+            <th>Horario</th>
+            <th>Aula</th>
+            <th>Horas</th>
+        </tr>
+        <tr>
+            <td>HTNL</td>
+            <td>16:00 a 20:00</td>
+            <td>Aula 1</td>
+            <td>20 Horas</td>
+        </tr>
+        <tr>
+            <td>CSS</td>
+            <td>9:00 a 12:00</td>
+            <td>Aula 3</td>
+            <td>20 Horas</td>
+        </tr>
+        <tr>
+            <td>Javascript</td>
+            <td rowspan="2">16:00 a 20:00</td>
+            <td>Aula 4</td>
+            <td>20 Horas</td>
+        </tr>
+        <tr>
+            <td>Jquery</td>
+            <td>Aula 5</td>
+            <td>20 Horas</td>
+        </tr>
+        <tr>
+            <th colspan="3">Total de horas</th>
+            <th>55 Horas</th>
+        </tr>
+    </table>
+</body>
+</html>
