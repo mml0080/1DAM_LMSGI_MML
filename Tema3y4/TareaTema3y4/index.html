@@ -72,5 +72,100 @@
         <p style="color: gold;text-align: center;">Frases motivadoras</p>
         <p>"La única manera de hacer un gran trabajo es amar lo que haces" (Steve Jobs), "El éxito parece estar relacionado con la acción. Las personas con éxito siguen avanzando" (Robert Kiyosaki), "Donde otros dudan, tú actúas" y "Trabaja en silencio, brilla con tus resultados"</p>
     </blockquote>
+    
+    <hr>
+
+    <!--A partir de aquí es la tarea de tablas y formularios-->
+
+     <style>
+        table, th, td
+        {
+            border: 1px solid black;
+            text-align: center;
+            background-color:beige ;
+        }
+    </style>
+
+    <p>Horario de las clases:</p>
+    <table>
+            <tr>
+                <th colspan="6">Horario</th>
+            </tr>
+            <tr>
+                <th>Hora</th>
+                <th>Lunes</th>
+                <th>Martes</th>
+                <th>Miércoles</th>
+                <th>Jueves</th>
+                <th>Viernes</th>
+            </tr>
+            <tr>
+                <th>8:30 - 9:30</th>
+                <td rowspan="3">Lenguaje de Marcas</td>
+                <td rowspan="3">Sistemas Informáticos</td>
+                <td rowspan="3">Entornos de desarrollo</td>
+                <td rowspan="3">Bases de Datos</td>
+                <td rowspan="3">Programación</td>
+            </tr>
+            <tr>
+                <th>9:30 - 10:30</th>
+            </tr>
+            <tr>
+                <th>10:30 - 11:30</th>    
+            </tr>
+            <tr>
+                <th colspan="6">Descanso</th>
+            </tr>
+            <tr>
+                <th>12:00 - 13:00</th>
+                <td rowspan="3">Programación</td>
+                <td rowspan="3">Bases de Datos</td>
+                <td>Sostenibilidad</td>
+                <td rowspan="2">Programación</td>
+                <td rowspan="3">IPE 1</td>
+            </tr>
+            <tr>
+                <th>13:00 - 14:00</th>
+                <td rowspan="2">Sistemas Informaticos</td>
+            </tr>
+            <tr>
+                <th>14:00 - 15:00</th>
+                <td>Digitalización</td>
+            </tr>
+        </table>
+
+        <hr>
+
+        <p>Formulario del Curriculum</p>
+
+    <form action="proceso.php" method="post">
+        <fieldset>
+            <legend>Datos personales</legend>
+            Nombre: <input type="text" name="nombre"> <br>
+            Apellidos: <input type="text" name="nombre"> <br>
+            Edad: <input type="number" name="edad"> <br>
+           <p>Género:</p>
+           <input type="radio" value="Hombre">Si
+            <input type="radio" value="Mujer">No <br>
+
+        </fieldset>
+        <fieldset>
+            <legend>Contacto</legend>
+            Correo electronico: <input type="text" name="nombre"> <br>
+            Codigo Postal: <input type="text" name="nombre"> <br>
+            Dirección: <input type="text" name="nombre"> <br>
+        Contraseña: <input type="password" name="contraseña" size="22">
+        </fieldset>
+        <fieldset>
+            <legend>Datos de interes</legend>
+            ¿Estás casado?<input type="radio" value="Si">Si
+            <input type="radio" value="No">No <br>
+            Deportes: <input type="checkbox" name="opcion1"> Baloncesto
+            <input type="checkbox" name="opcion1"> Fútbol
+            <input type="checkbox" name="opcion1"> Ciclismo
+        </fieldset>
+        <input type="submit" value="Enviar">
+        <input type="reset" value="Borrar">
+    </form>
 </body>
 </html>
