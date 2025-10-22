@@ -77,6 +77,7 @@
 
     <!--A partir de aquí es la tarea de tablas y formularios-->
 
+    <!--Aquí añado el estilo para la tabla del horario -->
      <style>
         table, th, td
         {
@@ -154,15 +155,25 @@
             Correo electronico: <input type="text" name="nombre"> <br>
             Codigo Postal: <input type="text" name="nombre"> <br>
             Dirección: <input type="text" name="nombre"> <br>
-        Contraseña: <input type="password" name="contraseña" size="22">
+            Ciudad: <select id="ciudad" name="ciudad">
+                <option value="jaen" selected>Jaén</option>
+                <option value="granada">Granada</option>
+                <option value="sevilla">Sevilla</option>
+                <option value="cordoba">Córdoba</option>
+            </select>
+            Contraseña: <input type="password" name="contraseña" size="22"> <br>
         </fieldset>
         <fieldset>
             <legend>Datos de interes</legend>
             ¿Estás casado?<input type="radio" value="Si">Si
             <input type="radio" value="No">No <br>
-            Deportes: <input type="checkbox" name="opcion1"> Baloncesto
-            <input type="checkbox" name="opcion1"> Fútbol
-            <input type="checkbox" name="opcion1"> Ciclismo
+            Hobbies: <br> <input type="checkbox" name="opcion1"> Deporte <br>
+            <input type="checkbox" name="opcion1"> Cine <br>
+            <input type="checkbox" name="opcion1"> Lectura <br>
+            <input type="checkbox" name="opcion1"> Correr <br>
+        </fieldset>
+        <fieldset>
+            <p>Comentarios adicionales: <br> <textarea name="comentario" rows="4" cols="27"></textarea></p>
         </fieldset>
         <input type="submit" value="Enviar">
         <input type="reset" value="Borrar">
