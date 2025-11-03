@@ -1,0 +1,37 @@
+  body {
+    font-family: Arial, sans-serif;
+  }
+
+  h1 {
+    border: 3px solid blue;
+    text-align: center;
+    background-color: white;
+  }
+
+  h2 {
+    background-color: gray;
+    color: white;
+    padding: 5px;
+  }
+
+  h3 {
+    background-color: black;
+    color: white;
+    padding: 5px;
+  }
+
+  h4 {
+    background-color: cyan;
+    padding: 5px;
+  }
+  .verde {
+    color: green;
+  }
+
+  .rojo {
+    color: red;
+  }
+
+  .negro {
+    color: black;
+  }
