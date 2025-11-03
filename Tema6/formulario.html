@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action="proceso.php" method="post">
+        <fieldset>
+            <legend>Datos personales</legend>
+            Nombre: <input type="text" name="nombre"> <br>
+            Apellidos: <input type="text" name="nombre"> <br>
+            Edad: <input type="number" name="edad"> <br>
+           <p>Género:</p>
+           <input type="radio" value="Hombre">Si
+            <input type="radio" value="Mujer">No <br>
+
+        </fieldset>
+        <fieldset>
+            <legend>Contacto</legend>
+            Correo electronico: <input type="text" name="nombre"> <br>
+            Codigo Postal: <input type="text" name="nombre"> <br>
+            Dirección: <input type="text" name="nombre"> <br>
+            Ciudad: <select id="ciudad" name="ciudad">
+                <option value="jaen" selected>Jaén</option>
+                <option value="granada">Granada</option>
+                <option value="sevilla">Sevilla</option>
+                <option value="cordoba">Córdoba</option>
+            </select>
+            Contraseña: <input type="password" name="contraseña" size="22"> <br>
+        </fieldset>
+        <fieldset>
+            <legend>Datos de interes</legend>
+            ¿Estás casado?<input type="radio" value="Si">Si
+            <input type="radio" value="No">No <br>
+            Hobbies: <br> <input type="checkbox" name="opcion1"> Deporte <br>
+            <input type="checkbox" name="opcion1"> Cine <br>
+            <input type="checkbox" name="opcion1"> Lectura <br>
+            <input type="checkbox" name="opcion1"> Correr <br>
+        </fieldset>
+        <fieldset>
+            <p>Comentarios adicionales: <br> <textarea name="comentario" rows="4" cols="27"></textarea></p>
+        </fieldset>
+        <input type="submit" value="Enviar">
+        <input type="reset" value="Borrar">
+    </form>
+</body>
+</html>
