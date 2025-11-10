@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Destinos Frecuentes</title>
+    <style>
+        /* Estilo general del cuerpo para definir el tamaño de fuente normal */
+        body {
+            font-family: Arial, sans-serif;
+            font-size: 16px; /* Tamaño de fuente normal de la página */
+        }
+
+        /* Contenedor para centrar la tabla y limitar su ancho */
+        .tabla-contenedor {
+            width: 50%; /* Ocupa el 50% del ancho de la página */
+            margin: 20px auto; /* Centra la tabla horizontalmente */
+            border-collapse: collapse; /* Colapsa los bordes */
+        }
+
+        /* Título de la tabla */
+        h2.titulo-tabla {
+            font-family: Verdana, sans-serif; /* Fuente Verdana */
+            letter-spacing: 2px; /* Letras más separadas */
+            text-align: center; /* Texto centrado */
+            width: 50%; /* Ocupa el 50% */
+            margin: 20px auto 10px auto; /* Centrado y con márgenes */
+        }
+
+        /* Estilos de la tabla */
+        table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+
+        /* Estilos de la cabecera (thead) */
+        thead {
+            background-color: #008000; /* Color verde de la imagen */
+            color: white;
+            font-family: Verdana, sans-serif; /* Fuente Verdana */
+            font-size: 1.5em; /* 1.5 veces el tamaño normal (16px * 1.5 = 24px) */
+        }
+
+        /* Celdas de cabecera (th) y celdas de datos (td) */
+        th, td {
+            /* Espacio entre el contenido y el borde de la celda */
+            padding: 10px;
+            border: 1px solid #ddd; /* Borde sutil */
+        }
+
+        /* Alineación de las celdas de la cabecera */
+        th.origen, th.destino {
+            text-align: left; /* Alineados a la izquierda */
+        }
+
+        th.precio {
+            text-align: right; /* Alineado a la derecha */
+        }
+        
+        /* Alineación de las celdas de datos (tbody) */
+        td.origen, td.destino {
+            text-align: left; /* Alineados a la izquierda */
+        }
+
+        td.precio {
+            text-align: right; /* Alineado a la derecha */
+            font-weight: bold; /* Añadido para que coincida con la imagen */
+        }
+
+        /* Estilos de "cebra" para las filas pares */
+        tbody tr:nth-child(even) {
+            background-color: #e0e0e0; /* Color gris claro para filas pares */
+        }
+
+        /* Estilos de "cebra" para las filas impares (la imagen usa blanco) */
+        tbody tr:nth-child(odd) {
+            background-color: #ffffff; /* Color blanco para filas impares */
+        }
+
+        /* Efecto al colocar el cursor (hover) sobre una fila */
+        tbody tr:hover {
+            background-color: #c0c0c0; /* Un gris más oscuro al pasar el cursor */
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+
+    <h2 class="titulo-tabla">DESTINOS FRECUENTES</h2>
+
+    <div class="tabla-contenedor">
+        <table>
+            <thead>
+                <tr>
+                    <th class="origen">Origen</th>
+                    <th class="destino">Destino</th>
+                    <th class="precio">Precio medio</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td class="origen">Madrid</td>
+                    <td class="destino">Eindhoven</td>
+                    <td class="precio">120,08 €</td>
+                </tr>
+                <tr>
+                    <td class="origen">Palma de Mallorca</td>
+                    <td class="destino">Marsella</td>
+                    <td class="precio">137,02 €</td>
+                </tr>
+                <tr>
+                    <td class="origen">Gran Canaria</td>
+                    <td class="destino">Oslo</td>
+                    <td class="precio">156,67 €</td>
+                </tr>
+                <tr>
+                    <td class="origen">Barcelona</td>
+                    <td class="destino">Lyon</td>
+                    <td class="precio">90,34 €</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+
+</body>
+</html>
