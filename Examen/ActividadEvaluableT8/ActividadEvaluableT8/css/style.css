@@ -1,0 +1,90 @@
+#contenido{
+    background-image:url(../img/fondo.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    padding: 15px;
+    border: 2px solid blue;
+    margin-left: 20%;
+    margin-right: 20%;
+}
+#menu{
+    text-align: right;
+    background-color: rgb(179, 179, 229);
+    list-style-type: none;
+    word-spacing: 20px;
+    padding: 10px;
+}
+#menu>li {
+    display: inline;
+}
+li a{
+    color: blue;
+    text-decoration: none;
+}
+li a:hover{
+    background-color: rgb(26, 26, 21);
+    color: rgb(170, 197, 14);
+}
+#titulo{
+    color: blue;
+    text-transform: uppercase;
+    background-color:rgb(179, 179, 229) ;
+    border: 2px solid blue;
+}
+.texto{
+    text-align: left;
+}
+.subtitulo{
+    text-align: left;
+    background-color:rgb(179, 179, 229) ;
+    border: 2px solid blue;
+    color: blue;
+}
+table{
+    padding: 5%;
+}
+th{
+    border:2px solid rgb(71, 62, 143);
+    color: red;
+}
+
+tr:nth-child(odd){
+    background-color: rgb(157, 164, 171);
+}
+
+td{
+    border: 2px solid rgb(154, 142, 223);
+    text-align: center;
+}
+tr{
+    color: blue;
+}
+tr:hover{
+    color: yellow;
+    background-color: rgb(28, 24, 24);
+}
+body{
+    background-color: rgb(123, 227, 227);
+    text-align: center;
+}
+#lista>li::first-letter{
+    text-transform: uppercase;
+}
+#lista{
+    text-align: left;
+}
+#lista::first-line{
+     color: blue;
+}
+#lista>li:nth-child(4){
+    color: blue;
+}
+.introduccion{
+    text-align: left;
+}
+#autor{
+    color: blue;
+}
+#autor::after{
+    content: "Martín Moreno López";
+}
